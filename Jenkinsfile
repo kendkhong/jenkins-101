@@ -3,7 +3,7 @@ pipeline {
         node {
             label 'minikube-agent'
             }
-      }
+    }
     triggers {
         pollSCM '*/5 * * * *'
     }
